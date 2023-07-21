@@ -1,0 +1,163 @@
+/* landing-page.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: greenyellow;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Main content styles */
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add more styles as needed */
+  
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: greenyellow;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+  }
+  
+  
+  
+  /* Add a media query to override the height property on large screens */
+  @media (min-width: 768px) {
+    .menu-container {
+      height: auto; /* or remove the height property altogether */
+    }
+  }
+  .support-local {
+    background-color: greenyellow;
+    padding: 25px 0;
+    
+  }
+  
+  .support-local h1 {
+    font-size: 48px;
+    color: #000;
+    font-weight: bold;
+    text-align: center
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 auto px;
+  }
+  
+  .benefits, .farm-to-table, .health {
+    background-color: greenyellow;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .benefits h2, .farm-to-table h2, .health h2 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .benefits p, .farm-to-table p, .health p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+  }
+
+  .Benefits-of-Farm {
+    background-color: greenyellow;
+    padding: 5px 0;
+    text-align: center;
+    
+  }
+  
+  footer {
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+  }
+
+  .benefits {
+    background-color: greenyellow;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .benefits h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .benefits p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .about-container {
+    display: grid;
+    place-items: start start;
+  }
+
+  .how-it-works-section, .Find-Farmer, .contact-section, .get-involved-section {
+    background-color: greenyellow;
+    padding: 40px; 
+  }
+  
+  
+  
+  
